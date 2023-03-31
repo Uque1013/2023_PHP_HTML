@@ -1,0 +1,27 @@
+<<bootstrap
+반응형 웹을 만드는 웹 프레임워크
+
+1. 부트스트랩 파일을 다운로드해서 사용하는 방법
+
+2. CDN을 사용(content delivery network)
+-------------------------------------------
+<<container / container-fluid
+1. container : 고정된 폭만큼 차지
+2. container-fluid : 무조건 100% 차지(가로크기기준)
+<div class = "container / container-fluid">
+   <div class = "row">
+        <div class = "col-sm3">
+
+
+3. col - (1번)-(2번)
+
+(1번) 기기의 종류
+1) xs : 576이하 (스마트폰) 모든 기기에서 같은 비율을 가진다.
+2) sm : 576이상 (스마트폰) 
+3) md :  768이상 (태블릿)
+4) lg : 992이상 (데스크탑)
+5) xl : 1200이상 (데스크탑)
+
+
+(2번) 가로의 비율
+- 브라우저 가로 전체를 12로 설정
